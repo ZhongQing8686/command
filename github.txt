@@ -1,0 +1,7 @@
+使用git向github上上传代码，需要用ssh-keygen生成rsa密钥后，在添加到github才能执行。
+1.生成密钥。
+cd ~/.ssh
+ssh-keygen -t rsa -C "your_email@example.com"
+2.将id_rsa.pub文件中的信息添加到github的ssh配置中。
+3.测试ssh key
+ssh -T git@github.com
