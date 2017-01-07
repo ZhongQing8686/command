@@ -1,0 +1,14 @@
+更新代码
+git pull
+
+上传代码
+git push
+
+提交代码到本地git库
+git commit -m "xxx"
+
+添加文件到本地库
+git add [file]
+
+从本地库删除文件
+git rm [file]
